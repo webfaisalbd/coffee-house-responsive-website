@@ -11,13 +11,29 @@
     --text-color-coffee: #6F4E37;
 }
 
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 2px;
+    color: var(--text-color-coffee);
+}
+
+.text-center {
+    text-align: center;
+}
+
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1024px;
     margin: 20px auto;
     /* height: 100vh; */
 }
 
+
+
+
+/*  hero section start */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -68,6 +84,21 @@
     height: 100%;
 }
 
+.hero-image {
+    position: relative;
+}
+
+.adda {
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    background-color: var(--text-color-coffee);
+    color: aqua;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
 .hero-featured-1,
 .hero-featured-2,
 .hero-featured-3 {
@@ -88,9 +119,85 @@
     font-weight: 600;
 }
 
+/* hero section end */
+
+
+
+
+
+/* featured product section start */
+.feature-product {
+    margin-top: 50px;
+}
+
+.box {
+    margin-top: 150px;
+    background: rgb(192, 172, 159);
+    /* border: 2px solid blue; */
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+    min-height: 300px;
+    
+}
+
+.feature-image-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.feature-image {
+    margin-top: -75px;
+    border-radius: 15px;
+}
+
+.feature-image-card {
+    /* border: 2px solid blue; */
+    position: relative;
+}
+
+.feature-image-text {
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    color: aqua;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* featured product section end */
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px){
     .hero-section {
         display: flex;
         flex-direction: column;
+    }
+
+    .box {
+        background: rgb(192, 172, 159);
+        /* border: 2px solid green; */
+    }
+
+    .feature-image-div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-image {
+        margin-top: 0;
     }
 }
