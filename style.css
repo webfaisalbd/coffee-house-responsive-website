@@ -240,6 +240,97 @@
 
 
 
+/* coffee feedback start  */
+.coffee-feedback {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(to right, orange, #FFE4D3);
+    border-radius: 30px;
+
+    display: flex;
+}
+
+.feedback-description {
+    flex-basis: 40%;
+    /* border: 2px solid blue; */
+}
+
+.feedback-card-box {
+    flex-basis: 60%;
+
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.feedback-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 60px;
+    /* border: 2px solid green; */
+}
+
+.feedback-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.feedback-paragraph {
+    color: white;
+    margin: 15px 0;
+}
+
+.single-card-item {
+    max-width: 350px;
+    background: white;
+    color: rgb(160, 150, 150);
+    padding: 30px;
+    margin: 30px 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.feedback-img {
+    position: absolute;
+    top: -7%;
+    left: -7%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.feedback-name {
+    margin-top: 5px;
+    color: black;
+}
+.feedback-occupation {
+    font-size: 12px;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+.single-card-box {
+    position: relative;
+    /* border: 2px solid green; */
+    margin-left: 30px;
+}
+
+
+.single-card-item-modified {
+    position: absolute;
+    top: 25%;
+    left: -10%;
+}
+
+/* coffee feedback end  */
 
 
 
@@ -295,6 +386,39 @@
         flex-direction: column;
         gap: 20px;
     }
+
+
+
+    /* coffee feedback start */
+    .coffee-feedback {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feedback-description-box {
+        margin-top: 20px;
+        max-width: 350px;
+    }
+
+    .feedback-card-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .feedback-img {
+        position: absolute;
+        top: -8%;
+        left: -2%;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* coffee feedback end */
+
+
 
 
 }
