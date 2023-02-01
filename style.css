@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 }
 
 :root {
@@ -397,7 +398,70 @@
 .news-and-events-description .learn-more:hover {
     color: var(--text-color-coffee);
 }
+
 /*  news and events end  */
+
+
+
+
+
+/* footer start */
+.footer-section {
+    margin-top: 100px;
+    /* background: #FEF2F2; */
+    background-image: linear-gradient(to right, #FFE4D3, #FEF2F2);
+    padding: 50px 100px;
+
+    border-top-left-radius: 90px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.footer-box p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-box ul {
+    min-width: 200px;
+}
+
+.footer-section .reserved {
+    margin-top: 30px;
+}
+
+.email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    padding: 2px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+.email {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex: 100%;
+}
+
+.email-icon {
+    font-size: 18px;
+}
+
+/* footer end */
 
 
 
